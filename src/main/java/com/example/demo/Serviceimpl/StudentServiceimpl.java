@@ -11,6 +11,7 @@ public class StudentServiceImpl implements StudentService{
  
 
     public Student saveStudent(Student student){
-        return  stud
+        return  studentRepository.save(student);
+
     }
 }
